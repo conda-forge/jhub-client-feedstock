@@ -1,5 +1,5 @@
 {% set name = "jhub-client" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jhub-client-{{ version }}.tar.gz
-  sha256: 3414eb1082fbacecd9e718d315c54815138e1efd5ec6716043cb105a38271297
+  sha256: 1d84630c69b893a4d3afa9ae0010315a73ad17fa94af498e672308894aa3be50
 
 build:
   number: 0
